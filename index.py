@@ -1,7 +1,7 @@
 #--------------------------------------------------------------------------
 #------- PLANTILLA DE CÓDIGO ----------------------------------------------
 #------- Juego PDI-------------------------------------------
-#------- Por: Jhon Vásquez  y Alejandro -----------------------------------
+#------- Por: Jhon Vásquez  y Alejandro Mercado -----------------------------------
 #------- Curso Básico de Procesamiento de Imágenes y Visión Artificial-----
 #------- Marzo de 2022--------------------------------------------------
 #--------------------------------------------------------------------------
@@ -15,7 +15,7 @@ countArguments = len(sys.argv)
 
 print(countArguments)
 
-if(countArguments > 1 and sys.argv[1] == "train"):
+if(countArguments > 1 and sys.argv[1] == "train"): # Se verifica los argumentos de la linea de comandos
     print("INGRESÓ EL ARGUMENTO")
     dataManager = dataManager.Trainer()
     dataManager.prepareData()
