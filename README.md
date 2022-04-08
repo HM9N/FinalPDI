@@ -12,6 +12,6 @@ Instrucciones:
 
 Notas:
 
-- Poner eñ path donde se encuentran las dos carpetas del dataset (withMask y withoutMask) en el archivo "dataManager.py" en el atributo "self.dataPath"
-- Para entrenar el modelo, se debe ejegutar desde la linea de comandos pasando como argumento la palabra "train"
+- Poner el path dónde se encuentran las dos carpetas del dataset (withMask y withoutMask) en el archivo "dataManager.py" en el atributo "self.dataPath"
+- Para entrenar el modelo, se debe ejecutar desde la linea de comandos pasando como argumento la palabra "train"
 - Si ya se tiene el modelo entrenado, solo es ejecutar el programa sin argumentos de linea de comando
